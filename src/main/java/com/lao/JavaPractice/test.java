@@ -7,5 +7,6 @@ public class test {
         x = 100;
         System.out.println(x=x+y);
         System.out.println(x=x-y);
+
     }
 }
