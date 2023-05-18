@@ -9,6 +9,7 @@ public class Day01Questions {
         System.out.println("-----------------Swapping two numbers--------------------");
         int a=10,b=50;
         System.out.println("Before Swapping :"+a+","+b);
+
         //Method 01
 //        int temp = a;
 //        a=b;
