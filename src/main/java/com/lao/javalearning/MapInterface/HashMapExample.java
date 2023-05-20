@@ -43,5 +43,6 @@ public class HashMapExample {
         //Fetch all keys and values
         System.out.println("Fetch all keys and value :"+hashMap.entrySet());
 
+
     }
 }
