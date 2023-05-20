@@ -33,7 +33,7 @@ public class HashMapExample {
 
         System.out.println("----------------");
         //Fetch a value
-        System.out.println("Fetch a value :"+hashMap.get(1));
+        System.out.println("Fetch a value :"+hashMap.get(2));
 
         System.out.println("----------------");
         //Fetch all value
