@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class test {
     public static void main(String[] args) {
-        name("hashir");
+        name("testAutomation");
 //        int x = 50;
 //        int y = 10;
 //        x = 100;
@@ -16,7 +16,7 @@ public class test {
     public static void name(String typed_name){
         HashMap<Character,Integer> map = new HashMap<Character,Integer>();
         char[] chartArray = typed_name.toCharArray();
-        for (char c:chartArray) {
+        for (Character c:chartArray) {
             if(map.containsKey(c)){
                 map.put(c,map.get(c)+1);
             }else{
@@ -25,20 +25,4 @@ public class test {
         }
         System.out.println(map);
     }
-
-    public static void name1(String typed_name){
-        HashMap<Character,Integer> map = new HashMap<Character,Integer>();
-        char[] chartArray = typed_name.toCharArray();
-        for (char c:chartArray) {
-            if(map.containsKey(c)){
-                map.put(c,map.get(c)+1);
-            }else{
-                map.put(c,1);
-            }
-        }
-        System.out.println(map);
-    }
-
-
-
 }
