@@ -6,7 +6,7 @@ public class Day01Questions {
 
     public static void main(String[] args) {
         //01) Swapping two numbers
-        System.out.println("-----------------Swapping two numbers--------------------");
+        System.out.println("-----------------Swapping two numbers--------------------"); //Youtube done
         int a=10,b=50;
 
         System.out.println("Before Swapping :"+a+","+b);
@@ -29,7 +29,7 @@ public class Day01Questions {
         a=a/b;
         System.out.println("After Swapping 03 :"+a+","+b);
 
-        System.out.println("----------------Reverse a Integer Value---------------------");
+        System.out.println("----------------Reverse a Integer Value---------------------"); //Youtube done
 
         //02) Reverse a number Method 01
         Scanner sc = new Scanner(System.in);

@@ -33,7 +33,7 @@ public class Day03Questions {
 
         for (row=0; row<count; row++){
             for (column=0; column<=row; column++){
-                System.out.print(" *");
+                System.out.print("* ");
             }
             System.out.println();
         }

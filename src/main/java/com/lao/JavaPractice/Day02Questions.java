@@ -8,7 +8,7 @@ public class Day02Questions {
 //        System.out.println(stringBuilder.reverse());
 
         //Method02
-        System.out.println("-------------Reverse a String Value---------------");
+        System.out.println("-------------Reverse a String Value---------------");  //Youtube done
         String sameName=name;
         String rev="";
 
@@ -37,7 +37,7 @@ public class Day02Questions {
         System.out.println("Number of digits :"+count);
 
 
-        System.out.println("-------------Count Add and Even number counts of Digits---------------");
+        System.out.println("-------------Count Odd and Even number counts of Digits---------------");
 
         int new_number = 456789;
 
