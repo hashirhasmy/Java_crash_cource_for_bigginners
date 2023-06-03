@@ -34,7 +34,7 @@ public class Day05Questions {
     }
 
     public static void main(String[] args) {
-        System.out.println("--------Find the smallest number from given array----------");
+        System.out.println("--------Find the smallest number from given array----------"); //Youtube done
         Day05Questions day05Questions = new Day05Questions();
         //Method 01
         day05Questions.findSmallest();

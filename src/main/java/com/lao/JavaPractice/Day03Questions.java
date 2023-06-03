@@ -25,7 +25,7 @@ public class Day03Questions {
         }
         System.out.println("Verify the length :"+length);
 
-        System.out.println("------------Print Triangle pattern using * mark----------");
+        System.out.println("------------Print Triangle pattern using * mark----------"); //Youtube done
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter number of rows & columns");
         int count = scanner.nextInt();
@@ -38,7 +38,7 @@ public class Day03Questions {
             System.out.println();
         }
 
-        System.out.println("------------Print Triangle pattern using increment digit value mark----------");
+        System.out.println("------------Print Triangle pattern using increment digit value mark----------"); //Youtube done
         Scanner scanner1 = new Scanner(System.in);
         System.out.println("enter number of rows & columns");
 
