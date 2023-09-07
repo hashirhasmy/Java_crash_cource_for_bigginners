@@ -20,6 +20,10 @@ public class Overload_Main {
         return a+b+c;
     }
 
+    public String add(String a, int b, int c){
+        return a;
+    }
+
 
     public static void main(String[] args) {
         Overload_Main overload_main = new Overload_Main();
@@ -34,5 +38,6 @@ public class Overload_Main {
         //step 02
         System.out.println(overload_main.add(10,15));
         System.out.println(overload_main.add(10,15,25));
+        System.out.println(overload_main.add("test",2,5));
     }
 }

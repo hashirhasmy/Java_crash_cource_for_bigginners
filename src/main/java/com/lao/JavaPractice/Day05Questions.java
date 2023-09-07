@@ -86,7 +86,7 @@ public class Day05Questions {
                 System.out.println(odd);
         }
 
-        System.out.println("--------How to reverse the words in a sentence----------");
+        System.out.println("--------How to reverse the words in a sentence----------");   //Youtube done
         String word = "My name is Hashir";
         String rev="";
 
@@ -98,5 +98,20 @@ public class Day05Questions {
             rev=rev+splitWords[i]+" ";
         }
         System.out.println("After spit :" + rev);
+
+        System.out.println("--------How To Reverse Each Word in a String----------");
+        String newWord = "Welcome to java";
+        String mainString = "";
+
+        String[] splitedWord = newWord.split(" ");
+
+        for (String w:splitedWord) {
+            String splitedString = "";
+            for (int i=w.length()-1; i>=0; i--){
+                splitedString = splitedString + w.charAt(i);
+            }
+            mainString = mainString + splitedString+" ";
+        }
+        System.out.println(mainString);
     }
 }

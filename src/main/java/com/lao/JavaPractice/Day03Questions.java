@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Day03Questions {
     public static void main(String[] args) {
-        System.out.println("------------Count sum of Digit numbers----------");
+        System.out.println("------------Count sum of Digit numbers----------"); //Youtube done
         int number = 123589;
         int sum = 0;
 

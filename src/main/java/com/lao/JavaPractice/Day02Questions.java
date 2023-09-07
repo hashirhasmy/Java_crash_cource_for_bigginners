@@ -25,7 +25,7 @@ public class Day02Questions {
             System.out.println("not");
         }
 
-        System.out.println("-------------Count number of Digits---------------");
+        System.out.println("-------------Count number of Digits---------------");  //Youtube done
 
         int number = 1234566780;
         int count=0;
@@ -37,7 +37,7 @@ public class Day02Questions {
         System.out.println("Number of digits :"+count);
 
 
-        System.out.println("-------------Count Odd and Even number counts of Digits---------------");
+        System.out.println("-------------Count Odd and Even number counts of Digits---------------"); //Youtube done
 
         int new_number = 456789;
 
