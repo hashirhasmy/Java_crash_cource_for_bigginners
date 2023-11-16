@@ -23,7 +23,7 @@ public class Day04Questions {
             System.out.println(c + ":Largest number");
         }
 
-        System.out.println("--------Doing sum for 2 numbers and increase the count----------");
+        System.out.println("--------Doing sum for 2 numbers and increase the count----------");  //Ignored
 
         int n1=0,n2=1,sum=0;
         System.out.print(n1+" "+n2);
@@ -35,7 +35,7 @@ public class Day04Questions {
         }
         System.out.println();
 
-        System.out.println("--------Check given number is prime or not----------");
+        System.out.println("--------Check given number is prime or not----------"); //Youtube done
         int num = 4;
         int count=0;
 

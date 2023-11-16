@@ -58,7 +58,7 @@ public class Day05Questions {
         }
         System.out.println("Factorial number is :" + factorial);
 
-        System.out.println("--------find the sum of Elements in  Arrays----------");
+        System.out.println("--------find the sum of Elements in  Arrays----------");  //Youtube done
         int [] b = {5,9,12,45,12};
         int sum1 =0;
         int sum2 = 0;
@@ -99,7 +99,7 @@ public class Day05Questions {
         }
         System.out.println("After spit :" + rev);
 
-        System.out.println("--------How To Reverse Each Word in a String----------");
+        System.out.println("--------How To Reverse Each Word in a String----------"); //Youtube done
         String newWord = "Welcome to java";
         String mainString = "";
 
