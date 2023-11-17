@@ -72,7 +72,7 @@ public class Day05Questions {
         }
         System.out.println("Sum of array using for loop:"+sum1+"\nSum of array using for each loop :"+sum2);
 
-        System.out.println("--------Print Even & Odd Numbers from an Array----------");
+        System.out.println("--------Print Even & Odd Numbers from an Array----------"); //Youtube done
 
         int [] c = {1,2,3,4,5,6};
         System.out.println("print even");
