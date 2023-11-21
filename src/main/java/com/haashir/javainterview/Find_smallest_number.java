@@ -31,7 +31,7 @@ public class Find_smallest_number {
     //3rd aproach
     public void usingCollections(){
         List<Integer> list =Arrays.asList(givenArray);
-        Collections.sort(list);
+        Collections.sort(list);  //if we want to sort values which stored in List variable we can use Collections.sort() | for normal arrays need to Arrays.sort()
         System.out.println(list.get(0));
     }
 
