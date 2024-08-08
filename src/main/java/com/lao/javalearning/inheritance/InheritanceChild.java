@@ -6,4 +6,8 @@ public class InheritanceChild extends InheritanceParent {
         InheritanceChild inheritanceChild = new InheritanceChild();
         inheritanceChild.car();
     }
+
+    public void testchild(){
+        System.out.println("my name is bilal");
+    }
 }
